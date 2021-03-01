@@ -1,4 +1,4 @@
-class TacoBell
+instance TacoBell
 
 number_of_chefs = 3
 is_stove_on = false

@@ -1,0 +1,13 @@
+class DiningRoom
+
+attributes:
+number_of_patrons (integer)
+available_tables (array)
+server_name (string)
+is_open (boolean)
+
+methods
+enter_restaurant (increases number_of_patrons integer by one)
+seat_party (removes value from available_tables array)
+relieve_server (updates server_name string)
+open_dining_room (sets is_open to true)

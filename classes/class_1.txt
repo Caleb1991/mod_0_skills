@@ -1,0 +1,13 @@
+class Kitchen
+
+attributes:
+number_of_chefs (integer)
+is_stove_on (boolean)
+order_numbers (array)
+dirty_dishes_in_sink (boolean)
+
+methods:
+clock_in_chef (increases number_of_chefs by one)
+turn_on_stove (sets is_stove_on to true)
+take_order (adds an integer to order_numbers)
+bring_back_dishes (sets dirty_dishes_in_sink to true)

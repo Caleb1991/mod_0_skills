@@ -1,0 +1,11 @@
+instance OliveGarden
+
+number_of_patrons = 23
+available_tables = [13, 55, 62]
+server_name = "David"
+is_open = false
+
+enter_restaurant (number_of_patrons = 24)
+seat_party (available_tables [55, 62])
+relieve_server (server_name = "Annie")
+open_dining_room (is_open = true)

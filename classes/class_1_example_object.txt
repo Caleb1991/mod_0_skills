@@ -1,0 +1,11 @@
+class TacoBell
+
+number_of_chefs = 3
+is_stove_on = false
+order_numbers = [77, 78, 79]
+dirty_dishes_in_sink = false
+
+clock_in_chef (number_of_chefs = 4)
+turn_on_stove (is_stove_on = true)
+take_order (order_numbers = [77, 78, 79, 80])
+bring_back_dishes (dirty_dishes_in_sink = true)
